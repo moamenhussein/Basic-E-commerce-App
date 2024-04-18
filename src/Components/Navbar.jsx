@@ -6,8 +6,8 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container">
-          <Link className="navbar-brand" to="/">
-            E-Commerce
+          <Link to="/" className="nav-link active fs-4 fw-bold">
+            CRUD
           </Link>
           <button
             className="navbar-toggler"
@@ -23,13 +23,8 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
+                <Link to="/" className="nav-link active fs-5">
                   Home
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/about">
-                  About
                 </Link>
               </li>
             </ul>
